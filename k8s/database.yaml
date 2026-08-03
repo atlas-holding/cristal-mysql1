@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
         - name: cristal-mysql1
-          image: harbor.dxp/dxp/cristal-mysql1:latest
+          image: harbor.harbor.svc.cluster.local/dxp/cristal-mysql1:9cb8349
           imagePullPolicy: Always
           ports:
             - containerPort: 5432
